@@ -71,8 +71,11 @@ const Banner = () => {
           alt="Summer Sale Banner"
           className="rounded-2xl shadow-2xl object-cover h-[400px] lg:h-[500px]"
         />
-      
-        
+        {/* Floating Tag */}
+        <div className="absolute -bottom-5 -left-5 bg-white p-4 rounded-xl shadow-xl z-20 flex flex-col items-center animate-pulse">
+          <span className="text-xs text-gray-500">Starting from</span>
+          <span className="text-2xl font-bold text-orange-500">$15.00</span>
+        </div>
       </div>
     </div>
 
