@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌞 SunCart – Summer Essentials Store
 
-## Getting Started
+🔗 **Live Site:** https://assignment-08-eight.vercel.app  
+📂 **Client Repo:** (add your GitHub repo link here)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**SunCart** is a modern full-stack summer-themed eCommerce web application where users can explore and purchase seasonal products like sunglasses, outfits, skincare, and beach accessories.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project focuses on real-world features like authentication, protected routes, responsive UI, and smooth user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+### 🔐 Authentication System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Email & Password login/register
+- Google social login
+- Secure authentication using BetterAuth
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔒 Protected Routes
 
-## Deploy on Vercel
+- Product details page is only accessible for logged-in users
+- Redirects to login if not authenticated
+- Redirects back after successful login
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🛒 Product System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Static JSON-based product data
+- Product listing with:
+  - Image
+  - Name
+  - Rating
+  - Price
+- Detailed product view page
+
+### 👤 User Profile
+
+- View user info (name, email, photo)
+- Update profile (name & image)
+
+### 🎨 UI & UX
+
+- Clean and modern design
+- Fully responsive (Mobile, Tablet, Desktop)
+- Reusable components
+
+### 🧩 Additional Sections
+
+- Hero banner (Summer Sale 🔥)
+- Popular products section
+- Summer care tips
+- Top brands section
+
+---
+
+## 🧰 Tech Stack
+
+- ⚡ Next.js (App Router)
+- 🎨 HeroUI
+- 🔐 BetterAuth
+- 🗄️ MongoDB
+- 🎯 React Icons
+
+---
+
+## 📁 Project Structure (Simplified)
