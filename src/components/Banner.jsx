@@ -60,7 +60,7 @@ const Banner = () => {
     {/* Right Content - Banner Image */}
     <div className="relative flex justify-center items-center">
       {/* Decorative Circle Background */}
-      <div className="absolute w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] bg-orange-300/30 rounded-full blur-3xl -z-0"></div>
+      <div  className="absolute w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] bg-orange-300/30 rounded-full blur-3xl -z-0"></div>
       
       <div className="relative z-10 hover:scale-105 transition-transform duration-500">
         <Image
