@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-10">
+    <footer className="mt-5">
       <Card className="rounded-none border-t bg-gradient-to-b from-white to-orange-50">
         <div className="max-w-7xl mx-auto w-full px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
 
