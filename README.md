@@ -1,70 +1,68 @@
-# 🌞 SunCart – Summer Essentials Store
+# 🌞 SunCart | The Ultimate Summer Essentials Store
 
-🔗 **Live Site:** https://assignment-08-eight.vercel.app  
-📂 **Client Repo:** (add your GitHub repo link here)
+<div align="center">
+
+  ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
+  ![BetterAuth](https://img.shields.io/badge/BetterAuth-Secure-orange?style=for-the-badge)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb)
+
+  **A sleek, full-stack eCommerce experience for seasonal summer products.**
+  
+  [Live Demo](https://suncart-summer-store-lyart.vercel.app/) • [Report Bug](https://github.com/amimahedihasan/suncart-summer-store/issues) • [Request Feature](https://github.com/amimahedihasan/suncart-summer-store/issues)
+
+</div>
 
 ---
 
 ## 🚀 Project Overview
 
-**SunCart** is a modern full-stack summer-themed eCommerce web application where users can explore and purchase seasonal products like sunglasses, outfits, skincare, and beach accessories.
-
-This project focuses on real-world features like authentication, protected routes, responsive UI, and smooth user experience.
+**SunCart** is a modern eCommerce platform built specifically for hot-weather essentials. From trendy sunglasses to protective skincare, SunCart offers a curated shopping experience with a "Golden Hour" aesthetic. This project demonstrates advanced authentication flows, protected routing, and high-performance UI rendering using the Next.js App Router.
 
 ---
 
 ## ✨ Features
 
-### 🔐 Authentication System
+### 🔐 Advanced Authentication
+- **Social & Credentials:** Seamless login via Google OAuth or traditional Email/Password.
+- **Secure Sessions:** Powered by **BetterAuth** for robust session management and data protection.
+- **Toast Feedback:** Beautiful, non-blocking notifications for login, signup, and errors via `react-toastify`.
 
-- Email & Password login/register
-- Google social login
-- Secure authentication using BetterAuth
+### 🔒 Secure Shopping Flow
+- **Protected Routes:** Premium product details and personal profile pages are restricted to logged-in members.
+- **Smart Redirects:** Intelligently redirects unauthenticated users to the sign-in page and brings them back exactly where they left off after a successful login.
 
-### 🔒 Protected Routes
+### 🛒 Premium eCommerce UI
+- **Summer Aesthetics:** A custom color palette featuring warm oranges, sunny yellows, and clean whites.
+- **Glassmorphism:** Modern backdrop-blur effects on navigation and cards for a high-end, breathable feel.
+- **Responsive Design:** Pixel-perfect layout across mobile, tablet, and desktop devices.
 
-- Product details page is only accessible for logged-in users
-- Redirects to login if not authenticated
-- Redirects back after successful login
-
-### 🛒 Product System
-
-- Static JSON-based product data
-- Product listing with:
-  - Image
-  - Name
-  - Rating
-  - Price
-- Detailed product view page
-
-### 👤 User Profile
-
-- View user info (name, email, photo)
-- Update profile (name & image)
-
-### 🎨 UI & UX
-
-- Clean and modern design
-- Fully responsive (Mobile, Tablet, Desktop)
-- Reusable components
-
-### 🧩 Additional Sections
-
-- Hero banner (Summer Sale 🔥)
-- Popular products section
-- Summer care tips
-- Top brands section
+### 👤 User Dashboard
+- **Profile Management:** View and update account information, including display name and profile imagery.
+- **Personalized Greeting:** Dynamic UI that welcomes users by name upon authentication.
 
 ---
 
 ## 🧰 Tech Stack
 
-- ⚡ Next.js (App Router)
-- 🎨 HeroUI
-- 🔐 BetterAuth
-- 🗄️ MongoDB
-- 🎯 React Icons
+| Layer            | Technology                                     |
+| :--------------- | :--------------------------------------------- |
+| **Framework**    | Next.js 15 (App Router)                        |
+| **UI Library**   | HeroUI (formerly NextUI)                       |
+| **Styling**      | Tailwind CSS                                   |
+| **Auth**         | BetterAuth                                     |
+| **Database**     | MongoDB (via Mongoose)                         |
+| **Icons**        | Iconify & Gravity UI Icons                     |
+| **Notifications**| React Toastify                                 |
 
 ---
 
-## 📁 Project Structure (Simplified)
+## 📁 Project Structure
+
+```text
+├── app/                # Next.js App Router (Pages, API, Layouts)
+├── assets/             # Branding images and static media
+├── components/         # Reusable UI components (Navbar, Form, Cards)
+├── lib/                # Auth config, DB connection, and utility functions
+├── public/             # Static public assets
+└── tailwind.config.js  # Custom theme and brand color configuration
